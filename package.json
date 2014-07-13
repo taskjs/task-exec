@@ -1,0 +1,31 @@
+{
+  "name": "task-exec",
+  "version": "0.1.0",
+  "main": "lib/exec.js",
+  "description": "Execute system commands.",
+  "homepage": "https://github.com/taskjs/task-exec",
+  "bugs": "https://github.com/taskjs/task-exec/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-exec"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords":[
+    "task",
+    "exec"
+  ],
+  "dependencies": {
+    "execution": "^0.1.2"
+  },
+  "scripts": {
+    "test": "node test/exec_test"
+  }
+}
